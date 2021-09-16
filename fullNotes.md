@@ -109,6 +109,7 @@
     - Careful from wildcard certs as they will return a subdomain for anything searched/ queried. Ex: notrealsub.google.com will return valid if wildcard cert is on it.
   - Use Sublist3r or `dnsdumpster.com`
   - `VirusTotal.com` search for a domain 
+  - use `amass` tool (downloadable via snap bundle) to gather domains using a bunch of included  options.
 
 - Ping Sweep: Used to create a map of a network
   - IMPORTANT: Use two tools to confirm everything is good, fping AND nmap. Nmap, if you don't need output remove /dev/null
